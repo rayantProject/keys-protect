@@ -12,3 +12,15 @@
 #!.yarn/cache
 .pnp.*
 node_modules
+
+
+
+.DS_Store
+
+Thumbs.db
+Desktop.ini
+
+*.log
+
+*.pem
+*.pid

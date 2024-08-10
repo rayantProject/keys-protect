@@ -15,6 +15,8 @@
   },
   "scripts": {
     "prepare": "husky",
-    "dev": "yarn workspaces foreach -Api run dev"
+    "prettier": "prettier --write .",
+    "dev": "yarn workspaces foreach -Api run dev",
+    "dev:desktop": "yarn workspace keys-protect-desktop run dev"
   }
 }
